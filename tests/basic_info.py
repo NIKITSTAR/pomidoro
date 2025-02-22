@@ -1,5 +1,4 @@
 def input_only_letters(prompt):
-    while True:
         value = input(prompt)
         if value.isalpha():
             return value
